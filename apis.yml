@@ -1,7 +1,26 @@
 aid: antengene
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/antengene.png
 name: antengene
-description: antengene is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Antengene Corporation is a commercial-stage, R&D-driven global biopharmaceutical company
+  focused on discovering, developing, and commercializing first-in-class and best-in-class therapies
+  for the treatment of hematologic malignancies and solid tumors. Headquartered in Shanghai with a
+  global footprint across the Asia Pacific region and beyond, Antengene's marketed product XPOVIO
+  (selinexor) and a pipeline of oncology assets such as the Claudin 18.2 antibody-drug conjugate
+  ATG-022 and the CD73 inhibitor ATG-037 target unmet needs in cancer care. Antengene operates in the
+  life sciences sector and does not currently publish a public developer API, SDK, or developer portal;
+  this profile was surfaced as a portfolio company of Qiming Venture Partners and captured in the API
+  Evangelist network for company intelligence and enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/antengene/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,8 +31,15 @@ x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+humanURL: https://antengene.com
 tags:
 - Company
+- Biopharmaceutical
+- Oncology
+- Pharmaceuticals
+- Healthcare
+- Life Sciences
+- Drug Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,19 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/antengene-domain-security.yml
 - type: Website
   url: https://antengene.com
+- type: PrivacyPolicy
+  url: https://antengene.com/about.html
+- type: TermsOfService
+  url: https://antengene.com/about.html
+- type: Blog
+  name: Newsroom
+  url: https://antengene.com/news.html
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
